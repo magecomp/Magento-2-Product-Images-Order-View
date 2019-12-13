@@ -1,0 +1,41 @@
+<?php
+/**
+ * @var \Magento\Sales\Block\Adminhtml\Order\View\Items $block
+ */
+$_order = $block->getOrder();
+$viewModel = $block->getViewModel();
+?>
+<div class="admin__table-wrapper">
+    <table class="data-table admin__table-primary edit-order-table">
+        <thead>
+        <tr class="headings">
+            <?php $i = 0;
+            $columns = $block->getColumns();
+            $lastItemNumber = count($columns) ;  ?>
+            <?php if($viewModel->isEnbaled()){ ?>
+                <th class="col-product_img) ?>"><span><?= $block->escapeHtml("Product Image") ?></span></th>
+            <?php } ?>
+            <?php foreach ($columns as $columnName => $columnTitle) :  ?>
+                <?php $i++;
+                if($columnName == 'product_img') {
+                    continue;
+                }else{ ?>
+                    <th class="col-<?= $block->escapeHtmlAttr($columnName) ?><?= /* @noEscape */ ($i === $lastItemNumber ? ' last' : '') ?>"><span><?= $block->escapeHtml($columnTitle) ?></span></th>
+                <?php } ?>
+            <?php endforeach; ?>
+        </tr>
+        </thead>
+        <?php $_items = $block->getItemsCollection();?>
+        <?php $i = 0; foreach ($_items as $_item) : ?>
+            <?php if ($_item->getParentItem()) :
+                continue;
+            else :
+                $i++;
+            endif; ?>
+            <tbody class="<?= /* @noEscape */ $i%2 ? 'even' : 'odd' ?>">
+            <?= $block->getItemHtml($_item) ?>
+            <?= $block->getItemExtraInfoHtml($_item) ?>
+            </tbody>
+        <?php endforeach; ?>
+    </table>
+</div>

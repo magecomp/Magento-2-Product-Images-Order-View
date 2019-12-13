@@ -1,0 +1,30 @@
+<?php
+$_item = $block->getItem();
+$viewModel = $block->getViewModel();
+
+?>
+<tr>
+    <?php $columns = $block->getColumns();
+    $lastItemNumber = count($columns);
+
+    $product = $_item->getProduct();
+    $image_url = $viewModel->getImageUrl($product);
+
+    if ($viewModel->isEnbaled()) { ?>
+        <td class="<?= /* @noEscape */
+        $columns['product_img'] ?>">
+            <img src="<?php echo $image_url; ?>"/>
+        </td>
+    <?php } ?>
+
+    <?php foreach ($columns as $columnName => $columnClass): ?>
+        <td class="<?= /* @noEscape */
+        $columnClass ?>">
+            <?php if ($columnClass == "product_img") { ?>
+                <?php continue; ?>"
+            <?php } else { ?>
+                <?php echo $block->getColumnHtml($_item, $columnName); ?>
+            <?php } ?>
+        </td>
+    <?php endforeach; ?>
+</tr>
