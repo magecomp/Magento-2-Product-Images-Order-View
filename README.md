@@ -25,7 +25,7 @@ Chances of mistakes happening will reduce.
 
 ![config](https://magecomp.com/media/catalog/product/cache/19b10369fecc27f1a40729d1b5b60dea/1/-/1-configuration_1_5.webp)
 
-**2. Product Image Display in Backend
+**2. Product Image Display in Backend**
 
 ![config](https://magecomp.com/media/catalog/product/cache/19b10369fecc27f1a40729d1b5b60dea/2/-/2-product_image_display_in_backend_1_.webp)
 
