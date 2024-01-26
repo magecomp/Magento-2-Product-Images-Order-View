@@ -40,16 +40,17 @@ Specify project dependencies using a JSON file & leave everything to Composer.
 
 ![Screenshot (20)](https://github.com/magecomp/magento2-mobile-login-free/assets/8856845/c0a5c632-fa58-4b84-bba4-2a3d26e4358e)
 
-# Screenshot
 
-**1. Configuration**
+# Configuration
+* Enable or Disable the extension from here. Set it as enable to use the features of the extension.
 
-![config](https://magecomp.com/media/catalog/product/cache/19b10369fecc27f1a40729d1b5b60dea/1/-/1-configuration_1_5.webp)
+![Screenshot (11)](https://github.com/magecomp/Magento-2-Product-Images-Order-View/assets/8856845/933f6ccb-fcb6-45d3-ba65-a3526a0fdd04)
 
-**2. Product Image Display in Backend**
+# How It's Work
 
-![config](https://magecomp.com/media/catalog/product/cache/19b10369fecc27f1a40729d1b5b60dea/2/-/2-product_image_display_in_backend_1_.webp)
+* When you enable the extension you will be able to view the product Images of all the orders in the order section page from the back-end.
 
+![Screenshot (12)](https://github.com/magecomp/Magento-2-Product-Images-Order-View/assets/8856845/7b555b80-ac1c-472e-b3e8-2b673c48d6dc)
 
 # Support
 
