@@ -1,25 +1,46 @@
-# [Magento 2 Product Images Order View](https://magecomp.com/magento-2-product-images-order-view.html) by MageComp
+# Magento 2 Product Images Order View
 
-Magento 2 Product Images Order View will allow admins to see the product images in the order view page in the back-end.
+![a](https://github.com/magecomp/Magento-2-Product-Images-Order-View/assets/8856845/44aeda3f-b564-4dd9-95a2-bd7ec33b9d1f)
+
+Magento 2 Product Images Order View allows administrators to view product images on the order view page in the backend.
 
 <a href="https://magecomp.com/magento-2-product-images-order-view.html"><img width="300" height="92" src="https://magecomp.com/media/button.webp"></a>
 
-## Requirements
-* Magento Community 2.2.0-2.4.x (CE, EE, ECE, B2B)
+# Contribute & Explore Your Coding Skills
 
-## Main Features
+We're always interested in growing mutually by inviting developers & motivating them to contribute to our Magento 2 Newsletter Popup module. Be ready to hit your keyboard keys & get listed today!
 
-* Easy to Use
+<a href="https://github.com/magecomp/Magento-2-Product-Images-Order-View/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=magecomp/Magento-2-Product-Images-Order-View" />
+</a>
 
-This extension is easy to use for admin to operate from backend.
+# Benefits
 
-* Showing Product Iamges from Backend
+* Easy to Use.
 
-Once the extension is enabled, you will be able to see the product images of all the products in the order section in the back-end.
+* Option to enable or disable the extension. To use the extension's functionalities, set this to enable.
 
-Chances of mistakes happening will reduce.
+* Once the extension is activated, you will be able to view product photos for all products in the order area of the backend.
 
-## Screenshot
+* The chances of making mistakes will be reduced.
+
+# What About the Pricing?
+
+* It's completely FREE OF CHARGE.
+  
+# Compatibility with Magento Versions
+* Magento 2.2.0-2.4.x (CE, EE, ECE, B2B)
+
+# Installing Via Composer
+  
+<img src="https://i.ibb.co/NjGRFCt/composer.png">
+Specify project dependencies using a JSON file & leave everything to Composer.
+
+# Compatible with Hyvä 
+
+![Screenshot (20)](https://github.com/magecomp/magento2-mobile-login-free/assets/8856845/c0a5c632-fa58-4b84-bba4-2a3d26e4358e)
+
+# Screenshot
 
 **1. Configuration**
 
@@ -29,66 +50,22 @@ Chances of mistakes happening will reduce.
 
 ![config](https://magecomp.com/media/catalog/product/cache/19b10369fecc27f1a40729d1b5b60dea/2/-/2-product_image_display_in_backend_1_.webp)
 
-## Change Log
 
-**Version 1.0.1**
+# Support
 
-Price Issue Resolved at Admin Order View
+Write to us at our [Support Portal](https://magecomp.com/support/) for queries about our Magento 2 extensions or services.
 
-## Support
+# Contact Us
+**MageComp**
 
-In case of any queries about our extensions or services, feel free to write to us at our [Support Portal](https://magecomp.com/support/).
+**Head Quarters:** 304-305, Eva Surbhi Complex, Waghawadi Road, Bhavnagar, Gujarat (India)
 
-## Contact us
+**Branch:** 1212, Shilp Zaveri, Shyamal Cross Road, Satellite, Ahmedabad, Gujarat, India.
 
-In case you would want to contact us, reach out to us at:
+**Representative office:** 9 Sunbird Crescent, Scarborough M1V3M6 (Canada)
 
-Phone: +917990250277
+**Phone:** +91 79902 50277
 
-Email: [support@magecomp.com](mailto:support@magecomp.com)
+**Email:** [support@magecomp.com](mailto:support@magecomp.com)
 
-## Other Magento 2 Extensions by MageComp
-
-[Magento 2 SBI Payment Gateway](https://magecomp.com/magento-2-sbi-payment-gateway.html)
-
-[Magento 2 ICICI Payment Gateway](https://magecomp.com/magento-2-icici-payment-gateway.html)
-
-[Magento 2 Axis Payment Gateway](https://magecomp.com/magento-2-axis-payment-gateway.html)
-
-[Magento 2 Hide Product Price](https://magecomp.com/magento-2-hide-product-price.html)
-
-[Magento 2 EBS Payment](https://magecomp.com/magento-2-ebs-payment.html)
-
-[Magento 2 Custom Stock Status](https://magecomp.com/magento-2-custom-stock-status.html)
-
-[Magento 2 Surcharge](https://magecomp.com/magento-2-surcharge.html)
-
-[Magento 2 WhatsApp Share](https://magecomp.com/magento-2-whatsapp-share.html)
-
-[Magento 2 Instagram Feed Extension](https://magecomp.com/magento-2-instagram-integration.html)
-
-[Magento 2 SMS Notification](https://magecomp.com/magento-2-sms-notification.html)
-
-## Magento Marketplace Extensions By MageComp
-
-[Facebook Pixel](https://marketplace.magento.com/magecomp-magento-2-facebook-pixel.html)
-
-[Minimum Order Fee](https://marketplace.magento.com/magecomp-module-orderfee.html)
-
-[City & Region Manager](https://marketplace.magento.com/magecomp-magento-2-city-and-region-manager.html)
-
-[Mobile Login with Email Optional](https://marketplace.magento.com/magecomp-magento-2-mobile-login-email-optional.html)
-
-[Download Invoice PDF](https://marketplace.magento.com/magecomp-magento-2-download-invoice-pdf.html)
-
-[Custom Order Number](https://marketplace.magento.com/magecomp-magento-2-custom-order-number.html)
-
-[Newsletter Popup](https://marketplace.magento.com/magecomp-magento-2-newsletter-popup.html)
-
-[SMS Notification (Basic)](https://marketplace.magento.com/magecomp-magento-2-sms-notification-free.html)
-
-[Notification Bar](https://marketplace.magento.com/magecomp-magento-2-notification-bar.html)
-
-[Store Pickup](https://marketplace.magento.com/magecomp-magento-2-store-pickup.html)
-
-For More Information: [How to Display Product Image in Backend Order Detail Page of Magento 2](https://magecomp.com/blog/display-product-image-backend-order-detail-page-magento-2/)
+<img src="https://magecomp.com/media/logo/websites/1/Magecomp_Logo_251x51.png">
